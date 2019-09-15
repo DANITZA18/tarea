@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 	@Slf4j
 	class BDD {
 
-	    Logger log = LoggerFactory.getLogger (vendedor1.class);
+	    Logger log = LoggerFactory.getLogger (vendedor_1.class);
 	    @Bean
 	    CommandLineRunner initDatabase(vendedores_repositorio repositoryvendedor, Orden_Repositorio repositoryOrden) {
 	        return args -> {
